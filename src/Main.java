@@ -3,7 +3,6 @@ public class Main {
         Pokemon nyaoha = new Pokemon();
         nyaoha.setName("ニャオハ");
         nyaoha.setType1("くさ");
-        nyaoha.setHp(20);
         nyaoha.setLevel(5);
 
         System.out.println(nyaoha.getName() +"のレベルは"+ nyaoha.getLevel() + "です");
