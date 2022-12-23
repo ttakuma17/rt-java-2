@@ -3,7 +3,6 @@ public class Main {
         Pokemon nyaoha = new Pokemon();
         nyaoha.setName("ニャオハ");
         nyaoha.setType1("くさ");
-        nyaoha.setHp(20);
         nyaoha.setLevel(5);
 
         System.out.println(nyaoha.getName() +"のレベルは"+ nyaoha.getLevel() + "です");
@@ -20,15 +19,15 @@ public class Main {
             System.out.println(nyaoha.getName() + "は進化をキャンセルしました。");
         }
 
-        nyaoha.setLevel(36);
-        System.out.println(nyaoha.getName() + "は 36 にレベルアップしました");
-
         if(nyaoha.getName().equals("マスカーニャ")){
             System.out.println("最終進化系です！レベルをあげて新しい技を覚えましょう!");
         }else{
             System.out.println("まだまだ進化できるかもしれません");
         }
 
+        nyaoha.setLevel(36);
+        System.out.println(nyaoha.getName() + "は 36 にレベルアップしました");
+        nyaoha.setType2("あく");
         nyaoha.setName("マスカーニャ");
 
         System.out.println(nyaoha.getName() + "に進化しました");
